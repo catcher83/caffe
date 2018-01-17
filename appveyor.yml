@@ -6,7 +6,7 @@ environment:
       WITH_NINJA: 0
       CMAKE_CONFIG: Release
       CMAKE_BUILD_SHARED_LIBS: 0
-      PYTHON_VERSION: 3
+      PYTHON_VERSION: 35
       WITH_CUDA: 0
 
     - MSVC_VERSION: 14

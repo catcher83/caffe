@@ -70,6 +70,7 @@ if DEFINED APPVEYOR (
     )
 
 ) else (
+    echo set default
     :: Change the settings here to match your setup
     :: Change MSVC_VERSION to 12 to use VS 2013
     if NOT DEFINED MSVC_VERSION set MSVC_VERSION=14
