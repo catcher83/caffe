@@ -25,8 +25,11 @@ if DEFINED APPVEYOR (
         set CONDA_ROOT=C:\Miniconda-x64
     )
     :: Set python 3.5 with conda as the default python
-    if !PYTHON_VERSION! EQU 3 (
+    if !PYTHON_VERSION! EQU 35 (
         set CONDA_ROOT=C:\Miniconda35-x64
+    )
+    if !PYTHON_VERSION! EQU 3 (
+        set CONDA_ROOT=C:\Miniconda3-x64
     )
     set PATH=!CONDA_ROOT!;!CONDA_ROOT!\Scripts;!CONDA_ROOT!\Library\bin;!PATH!
 
